@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Mascota Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div class="titulo-barra">Comida</div>
+        <div class="barra">
+            <div id="barraComida" class="relleno" style="width: 100%;"></div>
+        </div>
+
+        <div id="mascota">
+            <img src="assets/ratita.png" id="imagenMascota" alt="Mascota">
+        </div>
+
+        <div class="botones">
+            <button onclick="alimentar()">Alimentar</button>
+            <button onclick="jugar()">Jugar</button>
+            <button onclick="dormir()">Dormir</button>
+        </div>
+
+        <div class="titulo-barra">Energía</div>
+        <div class="barra">
+            <div id="barraEnergia" class="relleno" style="width: 100%;"></div>
+        </div>
+    </div>
+    <script src="mascota.js"></script>
+</body>
+</html>
